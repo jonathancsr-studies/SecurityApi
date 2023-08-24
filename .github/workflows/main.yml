@@ -27,8 +27,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            brunobotelhobr/my-sample-api:${{ github.run_number }}
-            brunobotelhobr/my-sample-api:latest
+            jonathancsr/my-sample-api:${{ github.run_number }}
+            jonathancsr/my-sample-api:latest
 
   CD:
     runs-on: ubuntu-latest
