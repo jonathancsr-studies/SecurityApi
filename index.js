@@ -18,6 +18,7 @@ app.get('/echo/:msg', (req, res) => {
     res.json({ "txt-input": msg, "hostname": os.hostname() });
 });
 
+
 app.get('/secret/:msg', (req, res) => {
     let password = 'cochilocachimbocai';
     let msg = req.params.msg;
